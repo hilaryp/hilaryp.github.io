@@ -1,0 +1,191 @@
+
+html, body
+{
+	height: 100%;
+}
+
+@font-face
+{
+	font-family: Gentium;
+	src: url(GentiumPlus-R.ttf);
+}
+
+body
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Optima', 'Gentium', 'Helvetica', sans-serif;
+	font-size: 12pt;
+	color: #000000;
+	text-align: justify;
+}
+
+h1, h2, h3
+{
+	margin: 0;
+	padding: 2px;
+}
+
+p, ol, ul
+{
+	margin-top: 0px;
+}
+
+p
+{
+	line-height: 150%;
+}
+
+a
+{
+	color: #73998C;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #3E3E3E;
+}
+
+img.left
+{
+	float: left;
+	margin: 0px 20px 20px 0;
+}
+		
+.text_line
+{
+    clear: both;
+    margin-bottom: 2px;
+}		
+
+/** WRAPPER */
+
+#wrapper-bg
+{
+	overflow: auto;
+	background: url(files/bg01.png) repeat;
+}
+
+#wrapper
+{
+	margin-top: 30px;
+	padding-bottom: 50px;
+	background: #FFF;
+	box-shadow: 0px 10px 0px rgba(0,0,0,0.03), 0px -10px 0px rgba(0,0,0,0.03);
+}
+
+
+/** HEADER */
+
+#header
+{
+	overflow: auto;
+	border-bottom: 1px solid #E7E7E7;
+	padding: 30px 200px;
+}
+
+/** LOGO */
+
+#logo
+{
+	float: left;
+}
+
+#logo h1
+{
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Optima', 'Gentium','Helvetica', sans-serif;
+	font-size: 40px;
+	color: #3E3E3E;
+	padding-right: 36px;
+}
+
+#logo span
+{
+	color: #8EBEAE;
+}
+
+
+/** MENU */
+
+#menu
+{
+	float: left;
+}
+
+#menu ul
+{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#menu li
+{
+	float: left;
+	line-height: 49px;
+	border-left: 1px solid #E7E7E7;
+}
+
+#menu a
+{
+	display: block;
+	padding: 0px 36px;
+	letter-spacing: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Optima', 'Gentium','Helvetica', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: #99CCBB;
+}
+
+
+#menu a:hover
+{
+	color: #3E3E3E;
+}
+
+/** PAGE */
+
+#page
+{
+	margin: 0;
+	padding: 10px 200px;
+}
+
+#page h2
+{
+	text-transform: uppercase;
+	font-family: 'Optima', 'Gentium','Helvetica', sans-serif;
+	color: #3E3E3E;
+}
+
+#page h3
+{
+	font-family: 'Optima', 'Gentium','Helvetica', sans-serif;
+	color: #3E3E3E;
+}
+
+/** FOOTER */
+
+#footer
+{
+	padding: 30px 0px;
+	box-shadow: 0px -10px 0px rgba(0,0,0,0.03);
+}
+
+#footer p
+{
+	text-align: center;
+	color: #767676;
+}
+
+#footer a
+{
+	color: #5f5f5f;
+}
